@@ -1,0 +1,8 @@
+ENTITY_TYPE_ADMIN = 'admin'
+ENTITY_TYPE_READER = 'reader'
+ACCESS_TYPE_ADD_USER = 'add_user'
+
+ENTITY_TYPE_CHOICES = (
+    (ENTITY_TYPE_ADMIN, 'Admin'),
+    (ENTITY_TYPE_READER, 'Reader')
+)
